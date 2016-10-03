@@ -1,0 +1,14 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "AWS CloudFormation template to create a ECS Cluster with Consul agents installed on each instance. Please note that this is not designed for production usage.",
+  "Mappings": {
+    "EcsNodeAmiMap": {
+      "eu-west-1": {
+        "AMI": "ami-4e6ffe3d"
+      },
+      "eu-central-1": {
+        "AMI": "ami-b0cc23df"
+      }
+    }
+  }
+}
